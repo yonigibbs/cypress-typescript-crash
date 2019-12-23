@@ -3,7 +3,7 @@ Cut down repo showing TypeScript &amp; Cypress with
 [add-typescript-to-cypress](https://github.com/bahmutov/add-typescript-to-cypress) plugin.
 
 This repository is used to demonstrate Cypress crashing when the TypeScript code is saved in a non-compiling state at
-any point.
+any point. This issue is logged as https://github.com/cypress-io/cypress/issues/6032.
 
 To reproduce the issue, do the following:
 1. Run `npm run cypress:open`. This will launch the Cypress UI.
